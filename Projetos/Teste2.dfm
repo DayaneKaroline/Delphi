@@ -1,0 +1,62 @@
+object FrnMensagem: TFrnMensagem
+  Left = 0
+  Top = 0
+  Caption = 'FrnMensagem'
+  ClientHeight = 441
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object LblMensagem: TLabel
+    Left = 184
+    Top = 96
+    Width = 127
+    Height = 32
+    Hint = 'Digite sua mensagem'
+    Alignment = taCenter
+    Caption = 'Mensagem'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clFuchsia
+    Font.Height = -24
+    Font.Name = 'Segoe UI Symbol'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object EdtMensagem: TEdit
+    Left = 48
+    Top = 152
+    Width = 457
+    Height = 33
+    Hint = 'Escreva uma mensagem aqui...'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clAqua
+    Font.Height = -21
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object BtnMensagem: TButton
+    Left = 184
+    Top = 256
+    Width = 153
+    Height = 49
+    Caption = 'Exibir Mensagem'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI Emoji'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = BtnMensagemClick
+  end
+end
