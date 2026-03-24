@@ -1,0 +1,52 @@
+unit USoma;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    btnSoma: TButton;
+    edtn1: TEdit;
+    edtn2: TEdit;
+    edtTotal: TEdit;
+    lbln1: TLabel;
+    lbln2: TLabel;
+    lblTotal: TLabel;
+    lblSinalMais: TLabel;
+    procedure lblSinalMaisClick(Sender: TObject);
+    procedure btnSomaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.btnSomaClick(Sender: TObject);
+var
+  n1: integer;
+  n2: integer;
+  tatal: string;
+begin
+  n1 := (strtoint(edtn1.Text));
+  n2 := (strtoint(edtn2.Text));
+  total := inttostr(n1 + n2);
+  edttotal.text :=(total);
+end;
+
+procedure TForm1.lblSinalMaisClick(Sender:
+
+begin
+
+end;
+
+end.
