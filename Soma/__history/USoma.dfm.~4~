@@ -1,4 +1,4 @@
-object frmSoma: TfrmSoma
+object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'frmSoma'
@@ -52,7 +52,7 @@ object frmSoma: TfrmSoma
   end
   object lblSinalMais: TLabel
     Left = 144
-    Top = 126
+    Top = 134
     Width = 18
     Height = 25
     Caption = ' +'
@@ -65,7 +65,7 @@ object frmSoma: TfrmSoma
   end
   object btnSoma: TButton
     Left = 295
-    Top = 127
+    Top = 135
     Width = 26
     Height = 25
     Caption = '='
@@ -80,23 +80,23 @@ object frmSoma: TfrmSoma
   end
   object edtn1: TEdit
     Left = 80
-    Top = 126
+    Top = 131
     Width = 58
-    Height = 28
+    Height = 38
     TabOrder = 1
   end
   object edtn2: TEdit
     Left = 184
-    Top = 126
-    Width = 73
-    Height = 28
+    Top = 131
+    Width = 65
+    Height = 38
     TabOrder = 2
   end
   object edtTotal: TEdit
     Left = 352
-    Top = 126
+    Top = 131
     Width = 73
-    Height = 28
+    Height = 38
     TabOrder = 3
   end
 end

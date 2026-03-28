@@ -65,7 +65,7 @@ object frmSoma: TfrmSoma
   end
   object btnSoma: TButton
     Left = 295
-    Top = 127
+    Top = 135
     Width = 26
     Height = 25
     Caption = '='

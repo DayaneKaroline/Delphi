@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TfrmSoma = class(TForm)
+  TForm1 = class(TForm)
     btnSoma: TButton;
     edtn1: TEdit;
     edtn2: TEdit;
@@ -25,13 +25,13 @@ type
   end;
 
 var
-  frmSoma: TfrmSoma;
+  Form1: TForm1;
 
 implementation
 
 {$R *.dfm}
 
-procedure TfrmSoma.btnSomaClick(Sender: TObject);
+procedure TForm1.btnSomaClick(Sender: TObject);
 {   Essa Variavel serve para números decimais.
 var
 n1: double;
